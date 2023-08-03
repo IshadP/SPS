@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #dafeb7;
+}
+
+.buttons {
+border: 2px solid #ACC18a;
+margin: 2vw;
+padding: 2vw;
+height: 60vh;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+border-radius: 25px;
+}
+
+.playbtn{
+margin: 0.5vw;
+background-color: #4CC9F0;
+display: grid;
+grid-template-rows: 5fr 1fr;
+border: 1px solid transparent;
+border-radius: 25px;
+transform: scaleX(1) scaleY(1);
+transition: transform 0.5s;
+}
+.playbtn:hover{
+    transform: scaleY(1.05) scaleX(1.05);
+    transition: all 0.5s;
+
+}
+
+.name{
+    background-color: #4CC9F0;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 2vw;
+}
+
+.emoji{
+    background-color: #4CC9F0;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-size: 5vw;
+}
+
+.final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    margin: 2vw;
+}
+
+#result{
+    font-size: 4vh;
+    font-family: monospace;
+    font-weight: 500;
+}
